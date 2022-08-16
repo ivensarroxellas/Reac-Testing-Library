@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event';
 import renderWithRouter from './renderWithRouter';
 import App from '../App';
 
-describe('AppCard', () => {
+describe('App', () => {
   test('Testa se o topo da aplicação possui conjuto fixo de links de navegação',
     () => {
       renderWithRouter(<App />);
